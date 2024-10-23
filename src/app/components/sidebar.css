@@ -1,0 +1,42 @@
+/* Ensure styles are correctly scoped */
+.bg-sidebar {
+    position: relative;
+}
+
+
+.bg-sidebar::after {
+    content: '';
+    background-color: #242b34;
+    position: absolute;
+    width: 345px;
+    height: 91px;
+    top: -16px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    z-index: 0;
+    right: -172px;
+}
+
+.icon-link {
+    color: #000;
+    /* Default color for icons */
+    transition: color 0.3s ease;
+    /* Smooth transition for color change */
+}
+
+.icon-link:hover {
+    color: #cc0088;
+    /* Color on hover */
+}
+
+/* For screens >= 640px (sm) */
+@media (min-width: 640px) {
+
+    .bg-sidebar::after {
+        width: 253px;
+        height: 86px;
+        right: -126px;
+    }
+
+    
+}

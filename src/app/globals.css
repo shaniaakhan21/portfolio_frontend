@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light mode */
+:root {
+  --bg-color: #d9d9d933;
+  --text-color: #000000;
+}
+
+/* Dark mode */
+:root.dark {
+  --bg-color: #000000;
+  --text-color: #ffffff;
+}
+
+/* Pink mode */
+:root.pink {
+  --bg-color: #f9a8d4;
+  --text-color: #831843;
+}
+
+/* Apply the custom properties */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+
+.MuiAppBar-root {
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.container {
+  padding: 0 14%;
+}
+
+.MuiTabs-flexContainer {
+  justify-content: space-between;
+}
+
+.min-w-fit {
+  min-width: fit-content !important;
+}
+
+.min-h-fit {
+  min-height: fit-content !important;
+}
+
+.font-size-16-9 {
+  font-size: 16px !important;
+}
+
+.bb {
+  position: relative;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  padding-bottom: 16px;
+  margin-bottom: 16px;
+}
+
+.container {
+  max-width: 100%!important;
+}
+
+.hover-icons .MuiSvgIcon-root{
+  font-size: 2.5em!important;
+}
+
+.MuiCardContent-root:last-child{
+  padding-bottom: 0%;
+}
+
+/* For screens <= 1536px (2xl) */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 100%!important;
+  }
+}
+
+/* For screens <= 1280px (xl) */
+@media (max-width: 1280px) {
+  /* Add xl-specific styles here */
+}
+
+/* For screens <= 1024px (lg) */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 3% !important
+  }
+}
+
+/* For screens <= 768px (md) */
+@media (max-width: 768px) {
+
+  .MuiTab-root {
+    padding: 1.5% 2%;
+  }
+
+  .font-size-16-9 {
+    font-size: 12px !important;
+  }
+
+  .container {
+    padding: 0 3% !important
+  }
+}
+
+/* For screens <= 640px (sm) */
+@media (max-width: 640px) {
+  .container {
+    padding: 0% 4%;
+  }
+
+  .projectPage p {
+    font-size: 1.1rem;
+    margin-bottom: 1.25em;
+    line-height: 1.88rem;
+    text-size-adjust: 100%;
+    color: #474747;
+  }
+
+  .MuiSvgIcon-root {
+    font-size: 12px !important;
+  }
+
+  #social-icons {
+    font-size: 1.5rem !important;
+  }
+
+  .font-size-16-9 {
+    font-size: 9px !important;
+  }
+
+  .icons-ph p {
+    font-size: 12px !important;
+  }
+
+  .projectPage p {
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+}

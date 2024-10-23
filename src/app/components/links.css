@@ -1,0 +1,8 @@
+.link-btn{
+    border: 1px solid #dfdfdfc9;
+}
+
+.link-btn:hover{
+    border: 1px solid #cc0088;
+    color: #cc0088;
+}
