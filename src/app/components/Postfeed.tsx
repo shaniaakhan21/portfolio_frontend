@@ -29,7 +29,7 @@ interface Posts {
     company_name?: string;
 }
 
-const PostFeed: React.FC<{ company_name?: string; posts: Posts[] }> = ({ company_name, posts: externalPosts }) => {
+const PostFeed: React.FC<{ company_name?: string; posts?: Posts[] }> = ({ company_name, posts: externalPosts }) => {
     const [activeTab, setActiveTab] = useState(0);
     const [posts, setPosts] = useState<Posts[]>(externalPosts || []);
     const backendUrl = process.env.NEXT_PUBLIC_BACKEND_URL;

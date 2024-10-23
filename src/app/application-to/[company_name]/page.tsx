@@ -2,6 +2,7 @@
 import React from 'react';
 import PostFeed from '../../components/Postfeed'; // Adjust the import based on your structure
 import axios from 'axios';
+import BasicInfo from '@/app/components/Basicinfo';
 
 const CompanyPostsPage: React.FC<{ params: { company_name: string } }> = async ({ params }) => {
     const { company_name } = params;
@@ -15,7 +16,7 @@ const CompanyPostsPage: React.FC<{ params: { company_name: string } }> = async (
 
         return (
             <div>
-                <h1>Posts for {company_name}</h1>
+                <BasicInfo className="hidden sm:block" />
                 <PostFeed company_name={company_name} posts={posts} />
             </div>
         );
