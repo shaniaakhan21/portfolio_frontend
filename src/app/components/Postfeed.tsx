@@ -17,7 +17,7 @@ import Blogs from '../blogs/page';
 import axios from 'axios';
 import { format } from 'date-fns';
 
-interface Posts {
+export interface Posts {
     title: string;
     content: string;
     author: string;
