@@ -8,13 +8,13 @@
     content: '';
     background-color: #242b34;
     position: absolute;
-    width: 345px;
-    height: 91px;
+    width: 352px;
+    height: 85px;
     top: -16px;
     border-top-left-radius: 13px;
     border-top-right-radius: 13px;
     z-index: 0;
-    right: -172px;
+    right: -176px;
 }
 
 .icon-link {
@@ -37,6 +37,23 @@
         height: 86px;
         right: -126px;
     }
+   
+}
 
-    
+/* Styles for laptop screens (641px to 1024px) */
+@media (min-width: 641px) and (max-width: 1600px) {
+    .bg-sidebar::after {
+        width: 256px;
+        height: 86px;
+        right: -128px;
+    }
+}
+
+/* Styles for large devices (1025px and above) */
+@media (min-width: 1600px) {
+    .bg-sidebar::after {
+        width: 320px; 
+        height: 80px; 
+        right: -160px;
+    }
 }
