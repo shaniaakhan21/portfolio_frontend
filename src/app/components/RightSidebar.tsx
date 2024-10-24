@@ -38,7 +38,7 @@ const RightSidebar: React.FC = () => {
                 <WorkExperience />
             </div>
 
-            <div className='rounded-xl shadow-md px-4 py-3 bg-white mt-4 mb-4'>
+            <div className='rounded-xl shadow-md px-4 py-3 bg-white mt-4 mb-4 '>
                 <VolunteerExperience />
             </div>
 
