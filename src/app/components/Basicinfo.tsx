@@ -24,23 +24,23 @@ const BasicInfo: React.FC<BasicInfoProps> = ({ className = "" }) => {
                 </Link>
             </div>
             <div className='flex justify-between items-end mt-1'>
-                <p className='flex items-center'>
-                    <Link href="/assets/pdfs/Shaniya_Khan_resume.pdf" download className='flex items-end'>
+                <p>
+                    <Link href="/assets/pdfs/Shaniya_Khan_resume.pdf" download className='flex items-center'>
                         <DownloadForOfflineIcon className='text-[12px] sm:text-xl' /> <span className='text-[#cc0088] cursor-pointer font-semibold hover:underline text-[10px] sm:text-base ml-1'>Résumé</span>
                     </Link>
                 </p>
-                <p className='flex items-center'>
-                    <Link href="/links" download className='flex items-end'>
+                <p>
+                    <Link href="/links" className='flex items-center'>
                         <LinkIcon className='text-[12px] sm:text-xl' /> <span className='text-[#cc0088] cursor-pointer hover:underline font-semibold text-[10px] sm:text-base ml-1'>Links</span>
                     </Link>
                 </p>
-                <p className='flex items-center'>
-                    <Link href='' download className='flex items-end'>
+                <p>
+                    <Link href='' className='flex items-center'>
                         <CakeIcon className='text-[12px] sm:text-xl' /> <span className='text-gray-500 font-semibold text-[10px] sm:text-base ml-1'>21 Feb 1999</span>
                     </Link>
                 </p>
-                <p className='flex items-center' >
-                    <Link href="/projects" target="_blank" rel="noopener noreferrer" download className='flex items-end'>
+                <p>
+                    <Link href="/projects" target="_blank" rel="noopener noreferrer" className='flex items-center'>
                         <RocketLaunchIcon className='text-[12px] sm:text-xl' /> <span className='text-[#cc0088] cursor-pointer hover:underline font-semibold text-[10px] sm:text-base ml-1'>Projects</span>
                     </Link>
                 </p>

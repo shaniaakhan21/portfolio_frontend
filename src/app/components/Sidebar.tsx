@@ -88,10 +88,10 @@ const Sidebar: React.FC = () => {
                         <Link href="https://linkedin.com/in/codewithshaniya" target="_blank" rel="noopener noreferrer" className="icon-link">
                             <LinkedInIcon id='social-icons'/>
                         </Link>
-                        <Link href="https://calendly.com/shaniyakhan/meeting-with-shaniya?month=2024-09" target="_blank" rel="noopener noreferrer" className="icon-link">
+                        <Link href="https://calendly.com/shaniyakhan/meeting-with-shaniya" target="_blank" rel="noopener noreferrer" className="icon-link">
                             <EditCalendarIcon id='social-icons'/>
                         </Link>
-                        <Link href="/" className="icon-link">
+                        <Link href="https://shaniya.pro" className="icon-link">
                             <LanguageIcon id='social-icons'/>
                         </Link>
                     </div>
