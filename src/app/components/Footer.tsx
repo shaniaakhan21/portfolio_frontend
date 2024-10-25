@@ -71,7 +71,7 @@ const Footer: React.FC = () => {
                         </div>
                         <div className='flex flex-row justify-end items-center text-black text-xs sm:text-lg'>
                             <MailIcon className='mr-2 text-sm sm:text-xl mt-1' sx={{ color: '#000' }} />
-                            shaniaakhan21@gmail.com
+                            hello@shaniya.pro
                         </div>
                     </div>
                     <div className='rounded-full border-white border-4 w-fit z-10'>

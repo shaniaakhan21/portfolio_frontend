@@ -22,7 +22,7 @@ const RightSidebar: React.FC = () => {
                     <div className='flex flex-row justify-start pb-1 items-center icons-ph'>
                         <MailIcon className='mr-2' sx={{ color: '#cc0088' }} />
                         <p>
-                            shaniaakhan21@gmail.com
+                            hello@shaniya.pro
                         </p>
                     </div>
                     <div className='flex flex-row justify-start pb-1 items-center icons-ph'>

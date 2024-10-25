@@ -20,7 +20,7 @@ const Links: React.FC = () => {
                     <CustomLink href="https://www.gogirlorganisation.com/team">Go Girl</CustomLink>
                     <CustomLink href="/assets/pdfs/Shaniya_Khan_resume.pdf" >Résumé</CustomLink>
                     <CustomLink href="https://dev.to/shaniya_khan_8d7f203b1ad2/basic-django-and-react-setup-a-step-by-step-guide-1819">Blogs</CustomLink>
-                    <CustomLink href="https://mail.google.com/mail/?view=cm&fs=1&to=shaniaakhan21@gmail.com">Email</CustomLink>
+                    <CustomLink href="https://mail.google.com/mail/?view=cm&fs=1&to=hello@shaniya.pro">Email</CustomLink>
                 </div>
             </div>
         </>
