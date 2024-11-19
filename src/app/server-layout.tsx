@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Script from "next/script";
 
 // Define the OpenGraph type explicitly
 interface OGImage {
@@ -88,6 +89,24 @@ export default function ServerRootLayout({
             `
           }}
         />
+
+         {/* Google Analytics (gtag.js) Tracking Script */}
+         <Script
+          strategy="afterInteractive"
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-QN3PDWWP00"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-QN3PDWWP00');
+            `
+          }}
+        />
+
 
       </head>
       <body className={`antialiased`}>
